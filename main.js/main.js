@@ -33,9 +33,9 @@ function generarTablaAmortizacion() {
     return;
     }
 
-    // let saldoPendiente = monto;
-    // let cuotaMensual = (monto * interes) / (1 - ((1 + interes) ** (-cuotas)));
- 
+let saldoPendiente = monto;
+let cuotaMensual = (monto * interes) / (1 - ((1 + interes) ** (-cuotas)));
+
 }
 
 document.getElementById("calcular").addEventListener("click", calcularCuotas);
